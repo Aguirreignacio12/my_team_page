@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black-color: #000000;
+  --fs-sm: .625rem;
+  --fs-md: .875rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 2.25rem;
+  --fw-400-poppins: 'Poppins 400';
+  --fw-600-poppins: 'Poppins 600';
+  --fw-400-PT-serif: 'PT-serif 400';
+  --fw-700-PT-serif: 'PT-serif 700';
+  --fw-500-montserrat: 'Montserrat 500';
+  --gray-color: #A9A9A9;
+  --lh-sm: 1.688rem;
+  --lh-md: 1.313rem;
+  --lh-lg: 1.063rem;
+  --lh-xl: .813rem;
+  --lh-xxl: 3rem;
+  --white-color: #FAFAFA;
+}
+
+@font-face {
+  font-family: 'Poppins 400';
+  src: url(../fonts/poppins-v20-latin-regular.woff2);
+}
+
+@font-face {
+  font-family: 'Poppins 600';
+  src: url(../fonts/poppins-v20-latin-600.woff2);
+}
+
+@font-face {
+  font-family: 'PT-serif 400';
+  src: url(../fonts/pt-serif-v17-latin-regular.woff2);
+}
+
+@font-face {
+  font-family: 'PT-serif 700';
+  src: url(../fonts/pt-serif-v17-latin-700.woff2);
+}
+
+@font-face {
+  font-family: 'Montserrat 500';
+  src: url(../fonts/montserrat-v25-latin-500.woff2);
+}
+
+.container-app {
+  margin: 0 auto;
+  position: relative;
+  width: 88.8%;
+}
+
+.content-home article {
+  padding: 2.375rem 0 0 0;
+}
+
+.title-app {
+  color: var(--black-color);
+  display: relative;
+  font-family: var(--fw-700-PT-serif);
+  font-size: var(--fs-xl);
+  letter-spacing: -0.045em;
+  line-height: var(--lh-xxl);
+  padding: 4.438rem 0 0 0;
+
+}
+
+.subtitle-app {
+  color: var(--black-color);
+  font-family: var(--fw-600-poppins);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-xl);
+  padding: 0 0 0.625rem 0;
+  text-transform: uppercase;
+}
+
+.txt-app {
+  color: #000000;
+  font-family: var(--fw-400-poppins);
+  font-size: var(--fs-md);
+  line-height: 1.313rem;
+}
+
+.container-cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, .4fr);
+  justify-content: space-around;
+  margin: 2.375rem 0 9rem 0;
+  position: relative;
+}
+
+
+.content-card {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.content-card:nth-child(even) {
+  margin: -3rem 0;
+}
+
+.content-card figure {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-card {
+  font-family: var(--fw-400-poppins);
+  font-size: var(--fs-md);
+  line-height: var(--lh-lg);
+  padding: .625rem 0 0 0;
+}
+
+.img-card {
+  height: 100%;
+  max-width: 281px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.txt-card {
+  color: var(--black-color);
+  font-family: var(--fw-400-PT-serif);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-sm);
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+
+footer {
+  position: relative;
+}
+
+footer p {
+  padding: 1.5rem 0;
+  color: var(--gray-color);
+  font-family: var(--fw-500-montserrat);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  text-align: center;
+}
+
+.dev-name {
+  font-weight: bold;
+}
