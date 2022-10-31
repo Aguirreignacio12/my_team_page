@@ -54,5 +54,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://ignacioaguirre.com)
-- GitHub [@your-username](https://github.com/Aguirreignacio12)
+- Website [ignacioaguirre.com](https://ignacioaguirre.com)
+- GitHub [@Aguirreignacio12](https://github.com/Aguirreignacio12)
