@@ -206,3 +206,17 @@ footer p {
     line-height: var(--lh-sm);
   }
 }
+
+@media (min-width:1024px) {
+  .content-home {
+    gap: 0 8rem;
+  }
+
+  .container-cards {
+    gap: 8rem 6rem;
+  }
+
+  footer p {
+    padding: 2rem 0;
+  }
+}
