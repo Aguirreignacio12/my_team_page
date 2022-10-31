@@ -149,3 +149,60 @@ footer p {
 .dev-name {
   font-weight: bold;
 }
+
+@media (min-width:768px) {
+  .container-app {
+    max-width: 1024px;
+  }
+
+  .content-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4.438rem 0 0 0;
+  }
+
+  .content-home article,
+  .title-app,
+  .subtitle-app {
+    padding: 0;
+  }
+
+  .subtitle-app {
+    margin: 1rem 0;
+  }
+
+  .txt-app {
+    font-size: var(--fs-lg);
+    line-height: var(--lh-sm);
+  }
+
+  .container-cards {
+    gap: 3rem;
+    margin: 6rem 0 12rem 0;
+    grid-template-columns: repeat(3, .4fr);
+  }
+
+
+  .content-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .content-card:nth-child(even) {
+    margin: 0;
+  }
+
+  .content-card:nth-child(3n+2) {
+    margin: -6.5rem 0;
+  }
+
+  .title-card {
+    font-family: var(--fw-600-poppins);
+    font-size: var(--fs-lg);
+  }
+
+  .txt-card {
+    font-size: .75rem;
+    line-height: var(--lh-sm);
+  }
+}
